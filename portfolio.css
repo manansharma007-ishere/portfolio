@@ -7,11 +7,11 @@
 :root {
     --primary: green;
     --primary-dark: green;
-    --bg: #ffffff;
-    --text: #0f172a;
-    --text-muted: #64748b;
-    --border: #e2e8f0;
-    --card-bg: #ffffff;
+    --bg: white;
+    --text: black;
+    --text-muted: grey;
+    --border: white;
+    --card-bg: white;
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
@@ -238,9 +238,6 @@ body {
     letter-spacing: -2px;
 }
 
-/* ============================================
-   ABOUT SECTION
-   ============================================ */
 .about-me {
     width: 100%;
     max-width: 1200px;
@@ -296,7 +293,7 @@ body {
     align-items: center;
     gap: 6px;
     border: 1px solid var(--border);
-    background: #f8fafc;
+    background: whitesmoke;
     color: var(--text);
     padding: 12px 20px;
     border-radius: 30px;
@@ -327,15 +324,15 @@ body {
 }
 
 .feature-card:nth-child(1) {
-    border-left-color: #f59e0b;
+    border-left-color: orange;
 }
 
 .feature-card:nth-child(2) {
-    border-left-color: #eab308;
+    border-left-color: orange;
 }
 
 .feature-card:nth-child(3) {
-    border-left-color: #ec4899;
+    border-left-color: palevioletred;
 }
 
 .feature-card:nth-child(4) {
@@ -364,9 +361,6 @@ body {
     font-size: 15px;
 }
 
-/* ============================================
-   CTA BANNER
-   ============================================ */
 .cta-banner {
     max-width: 1100px;
     margin: 60px auto;
@@ -411,9 +405,6 @@ body {
     border-color: var(--primary);
 }
 
-/* ============================================
-   SKILLS SECTION
-   ============================================ */
 .skills {
     width: 100%;
     max-width: 1200px;
@@ -447,7 +438,7 @@ body {
 }
 
 .menu-item:hover {
-    background: #f8fafc;
+    background: whitesmoke;
     color: var(--text);
 }
 
@@ -459,7 +450,7 @@ body {
 
 .skills-details {
     flex: 1;
-    background: #f8fafc;
+    background: whitesmoke;
     border: 1px solid var(--border);
     border-radius: 24px;
     padding: 40px;
@@ -482,7 +473,7 @@ body {
 .bar {
     flex: 1;
     height: 8px;
-    background: #e2e8f0;
+    background: whitesmoke;
     border-radius: 4px;
     overflow: hidden;
 }
@@ -539,9 +530,6 @@ body {
     box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
 }
 
-/* ============================================
-   EXPERIENCE SECTION
-   ============================================ */
 .experience {
     max-width: 1200px;
     margin: 100px auto;
@@ -610,16 +598,13 @@ body {
 
 .exp-tags span {
     padding: 6px 14px;
-    background: #f0fdf4;
+    background: whitesmoke;
     color: var(--primary);
     border-radius: 8px;
     font-size: 13px;
     font-weight: 500;
 }
 
-/* ============================================
-   PROJECTS SECTION
-   ============================================ */
 .projects {
     max-width: 1200px;
     margin: 100px auto;
@@ -699,16 +684,13 @@ body {
 
 .project-tags span {
     padding: 6px 14px;
-    background: #f0fdf4;
+    background: whitesmoke;
     color: var(--primary);
     border-radius: 8px;
     font-size: 13px;
     font-weight: 500;
 }
 
-/* ============================================
-   IMPACT SECTION
-   ============================================ */
 .impact {
     max-width: 1200px;
     margin: 100px auto;
@@ -765,7 +747,7 @@ body {
 
 .impact-block {
     padding: 24px;
-    background: #f8fafc;
+    background: whitesmoke;
     border-radius: 16px;
 }
 
@@ -794,9 +776,6 @@ body {
     line-height: 1.6;
 }
 
-/* ============================================
-   CONTACT SECTION
-   ============================================ */
 .contact-section {
     max-width: 1200px;
     margin: 100px auto;
@@ -823,9 +802,7 @@ body {
     border-bottom-color: var(--primary);
 }
 
-/* ============================================
-   FOOTER
-   ============================================ */
+
 footer {
     text-align: center;
     padding: 40px;
@@ -834,9 +811,6 @@ footer {
     border-top: 1px solid var(--border);
 }
 
-/* ============================================
-   RESPONSIVE
-   ============================================ */
 @media (max-width: 1024px) {
     .hero-container {
         flex-direction: column;
